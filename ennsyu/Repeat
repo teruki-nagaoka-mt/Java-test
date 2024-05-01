@@ -1,0 +1,11 @@
+public class Main{
+    public static void main (String[] args){
+        System.out.println("java Question1");
+        System.out.println("10");
+        int sum = 0;
+        for(int i = 0; i < 11; i++){
+            sum = sum + i;
+        }
+        System.out.println("1から10の和は、" + sum + "です。");
+    }
+}
