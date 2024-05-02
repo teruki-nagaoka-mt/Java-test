@@ -1,5 +1,8 @@
-public class Main {
+import java.util.Scanner;
+
+public class Test {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in); 
         int[][] seiseki = {{20, 50, 60}, {30, 60, 70}, {45, 60, 80}, {35, 40, 50}};
         for (int j = 0; j < seiseki.length; j++) {
             for (int i = 0; i < seiseki[j].length; i++) {

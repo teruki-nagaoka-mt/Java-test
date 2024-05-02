@@ -1,0 +1,29 @@
+public class Main{
+    public static void main (String[] args){
+        samename ();
+        samename (0);
+        samename (0,1);
+        samename ("str1");
+        samename ("str1","str2");
+    }
+
+    public static void samename (){
+        System.out.println("引数を持たないsamenameメソッドです。");
+    }
+
+    public static void samename (int x){
+        System.out.println("int型の引数を1つもつsamenameメソッドです。引数：" + x);
+    }
+    
+    public static void samename (int x,int y){
+        System.out.println("int型の引数を2つもつsamenameメソッドです。引数：" + x + "," + y);
+    }
+    
+    public static void samename (String x){
+        System.out.println("String型の引数を1つもつsamenameメソッドです。引数：" + x);
+    }
+    
+    public static void samename (String x,String y){
+        System.out.println("String型の引数を2つもつsamenameメソッドです。引数：" + x + "," + y);
+    }
+}
