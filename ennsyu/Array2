@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        int[][] seiseki = {{20, 50, 60}, {30, 60, 70}, {45, 60, 80}, {35, 40, 50}};
+        for (int j = 0; j < seiseki.length; j++) {
+            for (int i = 0; i < seiseki[j].length; i++) {
+                System.out.println("社員" + (j + 1) + "の" + (i + 1) + "回目の点数は" + seiseki[j][i] + "です。");
+            }
+        }
+    }
+}
