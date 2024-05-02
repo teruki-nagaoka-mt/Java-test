@@ -1,0 +1,22 @@
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        // チーム24の名前をArrayListに追加
+        ArrayList<String> team24 = new ArrayList<String>();
+        team24.add("青木希海");
+        team24.add("尾ノ井理愛");
+        team24.add("佐々木菜穂");
+        team24.add("中島帆乃香");
+        team24.add("長岡輝貴");
+
+        // チーム24のメンバーの名前を紹介
+        System.out.println("チーム24のメンバーを紹介します。");
+        int count = 0;
+        for (String name : team24) {
+            System.out.println("内定者" + (count + 1) + ": " + name);
+            count++;
+        }
+        System.out.println("以上" + count + "名。よろしくお願い致します。");
+    }
+}
